@@ -81,6 +81,31 @@ header li a {
   color: hsl(0deg, 0%, 100%);
 }
 
+.banner_two {
+  background-color: hsl(228deg, 28%, 20%);
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  padding: 2em;
+}
+.banner_two .banner_two-first, .banner_two .banner_two-second, .banner_two .banner_two-third {
+  margin: 2em;
+}
+.banner_two h5 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  padding: 1em;
+}
+.banner_two p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
 html, body {
   font-family: "Montserrat";
 }/*# sourceMappingURL=style.css.map */
