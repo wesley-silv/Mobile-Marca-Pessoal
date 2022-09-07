@@ -3,13 +3,12 @@ header {
   text-align: center;
   background-color: hsl(228deg, 28%, 20%);
   color: hsl(0deg, 0%, 100%);
-  padding: 1.5em 0;
 }
 header .header_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5em 0;
+  padding: 2.5em 0;
 }
 header .header_container h2 {
   font-family: "Montserrat";
@@ -23,7 +22,7 @@ header .header_container .header_container-imagem {
   gap: 1em;
 }
 header ul {
-  padding: 1.5em;
+  padding: 2em 1em;
 }
 header li {
   margin: 0.5em auto;
