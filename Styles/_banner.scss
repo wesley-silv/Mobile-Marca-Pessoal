@@ -1,7 +1,7 @@
 @import './variaveis';
 
 .banner {
-  background:url(../Assets/banner_mobile.svg) center;
+  background:url(../Assets/banner_mobile.svg) center no-repeat;
   text-align: center;
   padding: 2em; 
   color: $font-white;
@@ -26,6 +26,8 @@
     justify-content: center;
     gap: 10px;
     button {
+      margin: 0 auto;
+      width: 60%;
       background: transparent;
       color: $light-background;
       border-color: $light-background;
@@ -39,6 +41,8 @@
       &:hover {
         background: $light-background;
         color: $font-white;
+        border: none;
+        transition: 300ms;
       }
     }    
   }

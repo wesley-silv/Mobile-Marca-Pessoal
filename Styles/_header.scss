@@ -18,18 +18,19 @@ header {
     .header_container-imagem {
       display: flex;
       align-items: center;
-      gap: 1em; 
+      gap: 2em; 
     }
   }
   ul {
-    padding: 2em 1em ;
+    padding: 2em;
   }
   li {
-    margin: .5em auto;
+    margin: 1.5em 0;
     a {
       font-family: "Montserrat";
       font-size: 30px;
       font-weight: 400;
+      font-style: italic;
       letter-spacing: 0.2px;
       line-height: 45px;
       text-decoration: none;
