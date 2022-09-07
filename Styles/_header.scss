@@ -1,0 +1,40 @@
+@import './variaveis';
+
+header {
+  text-align: center;
+  background-color: $dark-background;
+  color: $font-white;
+  padding: 1.5em 0;
+  .header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0;
+    h2 {
+      font-family:"Montserrat";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 0.1;
+    }
+    .header_container-imagem {
+      display: flex;
+      align-items: center;
+      gap: 1em; 
+    }
+  }
+  ul {
+    padding: 1.5em ;
+  }
+  li {
+    margin: .5em auto;
+    a {
+      font-family: "Montserrat";
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      line-height: 45px;
+      text-decoration: none;
+      color: $font-white;
+    }
+  }
+}
