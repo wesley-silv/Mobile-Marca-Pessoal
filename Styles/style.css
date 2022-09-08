@@ -170,6 +170,9 @@ header li a {
   letter-spacing: 0.2px;
   line-height: 20px;
 }
+.profile_container .profile_container-one p {
+  color: hsl(0deg, 0%, 45%);
+}
 .profile_container .profile_container-two {
   background: hsl(0deg, 0%, 100%);
   color: #000000;
@@ -206,6 +209,179 @@ header li a {
   font-weight: 500;
   letter-spacing: 0.2px;
   line-height: 20px;
+}
+.profile_container .profile_container-two p {
+  color: hsl(0deg, 0%, 45%);
+}
+
+.folder_container {
+  background-color: hsl(228deg, 28%, 20%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 2em;
+  text-align: center;
+}
+.folder_container h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700px;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+}
+.folder_container p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  padding: 2em;
+}
+.folder_container .folder_container-one {
+  background: url(../Assets/folder-one.svg) center center no-repeat;
+  padding: 2em;
+  margin: 1.5em;
+}
+.folder_container .folder_container-one h6 {
+  font-family: "Montserrat";
+  font-seze: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.folder_container .folder_container-one h3 {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin: 1em;
+}
+.folder_container .folder_container-one button {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  border-radius: 37px;
+  border: solid 2px hsl(202deg, 87%, 54%);
+  color: hsl(202deg, 87%, 54%);
+  transition: 300ms;
+  padding: 0 1em;
+  background: transparent;
+}
+.folder_container .folder_container-one button:hover {
+  background: hsl(202deg, 87%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.folder_container .folder_container-two {
+  background: url(../Assets/folder-two.svg) center center no-repeat;
+  padding: 2em;
+  margin: 1.5em;
+}
+.folder_container .folder_container-two h6 {
+  font-family: "Montserrat";
+  font-seze: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.folder_container .folder_container-two h3 {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin: 1em;
+}
+.folder_container .folder_container-two button {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  border-radius: 37px;
+  border: solid 2px hsl(202deg, 87%, 54%);
+  color: hsl(202deg, 87%, 54%);
+  transition: 300ms;
+  padding: 0 1em;
+  background: transparent;
+}
+.folder_container .folder_container-two button:hover {
+  background: hsl(202deg, 87%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.folder_container .folder_container-three {
+  background: url(../Assets/folder-three.svg) center center no-repeat;
+  padding: 2em;
+  margin: 1.5em;
+}
+.folder_container .folder_container-three h6 {
+  font-family: "Montserrat";
+  font-seze: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.folder_container .folder_container-three h3 {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin: 1em;
+}
+.folder_container .folder_container-three button {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  border-radius: 37px;
+  border: solid 2px hsl(202deg, 87%, 54%);
+  color: hsl(202deg, 87%, 54%);
+  transition: 300ms;
+  padding: 0 1em;
+  background: transparent;
+}
+.folder_container .folder_container-three button:hover {
+  background: hsl(202deg, 87%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.folder_container .folder_container-four {
+  background: url(../Assets/folder-four.svg) center center no-repeat;
+  padding: 2em;
+  margin: 1.5em;
+}
+.folder_container .folder_container-four h6 {
+  font-family: "Montserrat";
+  font-seze: 14px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.folder_container .folder_container-four h3 {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin: 1em;
+}
+.folder_container .folder_container-four button {
+  font-family: "Montserrat";
+  font-seze: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  border-radius: 37px;
+  border: solid 2px hsl(202deg, 87%, 54%);
+  color: hsl(202deg, 87%, 54%);
+  transition: 300ms;
+  padding: 0 1em;
+  background: transparent;
+}
+.folder_container .folder_container-four button:hover {
+  background: hsl(202deg, 87%, 54%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 html, body {

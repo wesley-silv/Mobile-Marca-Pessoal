@@ -1,0 +1,81 @@
+@import './variaveis'
+
+@mixin font
+  h6
+    font-family: $Montserrat
+    font-seze: 14px
+    font-weight: 600
+    letter-spacing: 0.2px
+    line-height: 24px
+  h3
+    font-family: $Montserrat
+    font-seze: 24px
+    font-weight: 700
+    letter-spacing: 0.1px
+    line-height: 32px
+    margin: 1em
+
+@mixin button 
+  button 
+    font-family: $Montserrat
+    font-seze: 24px
+    font-weight: 700
+    letter-spacing: 0.1px
+    line-height: 32px
+    border-radius: 37px
+    border: solid 2px $light-background
+    color: $light-background
+    transition: 300ms
+    padding: 0 1em
+    background: transparent
+    &:hover
+      background: $light-background
+      color: $font-white
+
+.folder_container 
+  background-color: $dark-background
+  color: $font-white
+  padding: 2em
+  text-align: center
+  h2
+    font-family: $Montserrat
+    font-size: 40px
+    font-weight: 700px
+    letter-spacing: 0.2px
+    line-height: 57px
+  p 
+    font-family: $Montserrat
+    font-size: 14px
+    font-weight: 500px
+    letter-spacing: 0.2px
+    line-height: 20px
+    padding: 2em 
+
+  .folder_container-one
+    @include font
+    @include button
+    background: url(../Assets/folder-one.svg) center center no-repeat
+    padding: 2em
+    margin: 1.5em
+
+  .folder_container-two  
+    @include font
+    @include button
+    background: url(../Assets/folder-two.svg) center center no-repeat
+    padding: 2em
+    margin: 1.5em
+
+  .folder_container-three 
+    @include font
+    @include button
+    background: url(../Assets/folder-three.svg) center center no-repeat
+    padding: 2em
+    margin: 1.5em
+
+  .folder_container-four
+    @include font
+    @include button
+    background: url(../Assets/folder-four.svg) center center no-repeat
+    padding: 2em
+    margin: 1.5em
+
