@@ -384,6 +384,40 @@ header li a {
   color: hsl(0deg, 0%, 100%);
 }
 
+.plans_container {
+  border-top: solid 2px hsl(202deg, 87%, 54%);
+  text-align: center;
+  background: hsl(228deg, 28%, 20%);
+  padding: 2em;
+  color: hsl(0deg, 0%, 100%);
+}
+.plans_container h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+}
+.plans_container p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  margin: 2em;
+}
+.plans_container .plans {
+  display: flex;
+  justify-content: space-around;
+}
+.plans_container .plans .free, .plans_container .plans .silver, .plans_container .plans .gold {
+  background: hsl(0deg, 0%, 100%);
+}
+.plans_container .plans .free h3, .plans_container .plans .silver h3, .plans_container .plans .gold h3 {
+  color: #000000;
+  padding: 1em;
+}
+
 html, body {
   font-family: "Montserrat";
 }/*# sourceMappingURL=style.css.map */
