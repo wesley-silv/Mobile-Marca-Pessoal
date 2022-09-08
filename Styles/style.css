@@ -19,7 +19,7 @@ header .header_container h2 {
 header .header_container .header_container-imagem {
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap: 2.5em;
 }
 header ul {
   padding: 2em;
@@ -104,6 +104,103 @@ header li a {
   padding: 1em;
 }
 .banner_two p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.profile_container {
+  text-align: center;
+  background-color: hsl(202deg, 87%, 54%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 2em;
+}
+.profile_container h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+}
+.profile_container p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  padding: 1.5em;
+}
+.profile_container .profile_container-one {
+  background: hsl(0deg, 0%, 100%);
+  color: #000000;
+  padding: 1.5em 2em;
+  text-align: justify;
+  margin: 1.5em auto;
+}
+.profile_container .profile_container-one h3 {
+  padding: 0 0.9em;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.profile_container .profile_container-one ul {
+  padding: 0 1em;
+}
+.profile_container .profile_container-one ul li {
+  display: inline-block;
+}
+.profile_container .profile_container-one h6 {
+  padding: 0 1em;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: hsl(0deg, 0%, 45%);
+  margin: 0.7em;
+}
+.profile_container .profile_container-one p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.profile_container .profile_container-two {
+  background: hsl(0deg, 0%, 100%);
+  color: #000000;
+  padding: 1.5em 2em;
+  text-align: justify;
+}
+.profile_container .profile_container-two h3 {
+  padding: 0 0.9em;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.profile_container .profile_container-two ul {
+  padding: 0 1em;
+}
+.profile_container .profile_container-two ul li {
+  display: inline-block;
+}
+.profile_container .profile_container-two h6 {
+  padding: 0 1em;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: hsl(0deg, 0%, 45%);
+  margin: 0.7em;
+}
+.profile_container .profile_container-two p {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;

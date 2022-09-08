@@ -1,0 +1,60 @@
+@import './variaveis'
+
+@mixin profile
+  background: $font-white
+  color: #000000
+  padding: 1.5em 2em
+  text-align: justify
+
+  h3
+    padding: 0 .9em
+    font-family: $Montserrat
+    font-size: 24px
+    font-weight: 700
+    letter-spacing: 0.1px
+    line-height: 32px
+  ul
+    padding: 0 1em
+    li 
+      display: inline-block
+  h6
+    padding: 0 1em
+    font-family: $Montserrat
+    font-size: 14px
+    font-weight: 800
+    letter-spacing: 0.2px
+    line-height:24px
+    color: $font-gray
+    margin: .7em
+  p 
+    font-family: $Montserrat
+    font-size: 14px
+    font-weight: 500
+    letter-spacing: 0.2px
+    line-height: 20px
+.profile_container
+  text-align: center
+  background-color: $light-background
+  color: $font-white
+  padding: 2em
+  h2 
+    font-family: $Montserrat
+    font-size: 40px
+    font-weight: 700
+    letter-spacing: 0.2px
+    line-height: 57px
+  p
+    font-family: $Montserrat
+    font-size: 14px
+    font-weight: 500
+    letter-spacing: 0.2px
+    line-height: 20px
+    padding: 1.5em
+  .profile_container-one
+    @include profile
+    margin: 1.5em auto
+  .profile_container-two
+    @include profile
+    
+
+

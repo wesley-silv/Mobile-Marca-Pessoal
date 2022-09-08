@@ -4,6 +4,7 @@ header {
   text-align: center;
   background-color: $dark-background;
   color: $font-white;
+  
   .header_container {
     display: flex;
     justify-content: space-around;
@@ -18,7 +19,7 @@ header {
     .header_container-imagem {
       display: flex;
       align-items: center;
-      gap: 2em; 
+      gap: 2.5em; 
     }
   }
   ul {
