@@ -4,6 +4,7 @@ header {
   text-align: center;
   background-color: $dark-background;
   color: $font-white;
+  height: 70vh;
   
   .header_container {
     display: flex;
@@ -36,6 +37,10 @@ header {
       line-height: 45px;
       text-decoration: none;
       color: $font-white;
+      margin-bottom: .2em;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

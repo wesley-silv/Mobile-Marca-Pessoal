@@ -1,5 +1,8 @@
 @import './variaveis'
 
+@mixin card
+  
+
 .plans_container 
   border-top: solid 2px $light-background
   text-align: center
@@ -21,9 +24,77 @@
     margin: 2em 
   .plans 
     display: flex
+    flex-direction: column
+    gap: 30px
     justify-content: space-around
     .free, .silver, .gold 
       background: $font-white
+      border-radius: 10px
+      color: #000000
+      text-align: center
+      padding: 1.5em 0
       h3 
-        color: #000000
         padding: 1em
+        text-transform: uppercase
+        font-family: $Montserrat
+        font-size: 24px
+        font-weight: 700
+        letter-spacing: 0.2px
+        line-height: 32px
+      h5
+       margin: 1em 0
+       font-family: $Montserrat
+       font-size: 16px
+       font-weight: 700
+       letter-spacing: 0.1px
+       line-height: 24px
+
+      .plans_values
+        color: $light-background
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        h2
+         font-family: $Montserrat
+         font-size: 40px
+         font-weight: 700
+         letter-spacing: 0.2px
+         line-height: 57px
+        p 
+         font-family: $Montserrat
+         font-size: 16px
+         font-weight: 700
+         letter-spacing: 0.1px
+         line-height: 24px
+      ul
+        text-align: justify
+        margin: 0 auto
+      li  
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: $Montserrat
+        font-size: 14px
+        font-weight: 600
+        letter-spacing: 0.2px
+        line-height: 24px
+      img
+        margin: 10px
+      button
+        background-color: $light-background
+        color: $font-white
+        margin: 1em 0
+        padding: 1em 1.5em
+        width: 60%
+        border-radius: 5px
+        border: none
+        font-family: $Montserrat
+        font-size: 14px
+        font-weight: 700
+        letter-spacing: 0.2px
+        line-height: 22px
+        &:hover
+          background-color: blue
+          cursor: pointer
+        
