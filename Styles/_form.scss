@@ -3,7 +3,7 @@
 .form_container {
   background: url(../Assets/form-banner.svg) center center no-repeat;
   text-align: center;
-  padding: 2em;
+  padding: 2em 0;
   h5 {
     font-family: $Montserrat;
     font-size: 16px;
@@ -44,12 +44,24 @@
     }
     textarea {
       padding: 1em;
-      width: 80%;
+      width: 68%;
       box-sizing: border-box;
       border-radius: 10px;
       border: solid 1px $light-background;
     }
-
+    .button_submit {
+      background: $light-background;
+      color: $font-white;
+      font-family: $Montserrat;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      line-height: 24px;
+      &:hover {
+        cursor: pointer;
+        background: hsl(240, 100%, 50%);
+        transition: 300ms;
+      }
+    }
 
   }
 }
