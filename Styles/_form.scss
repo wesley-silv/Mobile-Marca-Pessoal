@@ -1,0 +1,55 @@
+@import './variaveis';
+
+.form_container {
+  background: url(../Assets/form-banner.svg) center center no-repeat;
+  text-align: center;
+  padding: 2em;
+  h5 {
+    font-family: $Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    color: #252B42;
+  }
+  h2 {
+    font-family: $Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 57px;
+    color: #252B42;
+    margin: .5em;
+  }
+
+  form {
+    input {
+      margin-left: auto;
+      margin-right: auto;
+      margin: 15px;
+      padding: .5em 1em;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: solid 1px $light-background;
+      width: 70%;
+    }
+    select {
+      display: inline-block;
+      width: 70%;
+      margin: 1em;
+      padding: .5em;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: solid 1px $light-background;
+    }
+    textarea {
+      padding: 1em;
+      width: 80%;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: solid 1px $light-background;
+    }
+
+
+  }
+}

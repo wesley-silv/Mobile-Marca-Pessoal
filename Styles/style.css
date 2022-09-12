@@ -435,6 +435,7 @@ header li a:hover {
 .plans_container .plans {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 30px;
   justify-content: space-around;
 }
@@ -484,13 +485,14 @@ header li a:hover {
   line-height: 24px;
 }
 .plans_container .plans .free ul, .plans_container .plans .silver ul, .plans_container .plans .gold ul {
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
 }
 .plans_container .plans .free li, .plans_container .plans .silver li, .plans_container .plans .gold li {
   display: flex;
   align-items: center;
-  justify-content: center;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
@@ -517,6 +519,55 @@ header li a:hover {
 .plans_container .plans .free button:hover, .plans_container .plans .silver button:hover, .plans_container .plans .gold button:hover {
   background-color: blue;
   cursor: pointer;
+}
+
+.form_container {
+  background: url(../Assets/form-banner.svg) center center no-repeat;
+  text-align: center;
+  padding: 2em;
+}
+.form_container h5 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  color: #252B42;
+}
+.form_container h2 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+  color: #252B42;
+  margin: 0.5em;
+}
+.form_container form input {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 15px;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: solid 1px hsl(202deg, 87%, 54%);
+  width: 70%;
+}
+.form_container form select {
+  display: inline-block;
+  width: 70%;
+  margin: 1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: solid 1px hsl(202deg, 87%, 54%);
+}
+.form_container form textarea {
+  padding: 1em;
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: solid 1px hsl(202deg, 87%, 54%);
 }
 
 html, body {
