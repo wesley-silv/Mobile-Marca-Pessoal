@@ -18,7 +18,7 @@
     font-weight: 500;
     letter-spacing: 0.2px;
     line-height: 30px;
-    padding: 2em;
+    padding: 1.5em;
   }
   .banner_container {
     display: flex;
@@ -41,6 +41,7 @@
       &:hover {
         background: $light-background;
         color: $font-white;
+        cursor: pointer;
         border: none;
         transition: 300ms;
       }

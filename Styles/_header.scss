@@ -4,7 +4,7 @@ header {
   text-align: center;
   background-color: $dark-background;
   color: $font-white;
-  height: 70vh;
+  
   
   .header_container {
     display: flex;
@@ -42,5 +42,11 @@ header {
         text-decoration: underline;
       }
     }
+  }
+}
+
+@media screen and (max-width: 914px) {
+  header {
+    height: 500px;
   }
 }
